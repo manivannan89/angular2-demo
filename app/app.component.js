@@ -11,14 +11,14 @@ var AppComponent = (function () {
     function AppComponent() {
         this.pageTitle = 'Acme Product Management';
     }
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'pm-root',
+            templateUrl: './app/app.component.html',
+            styleUrls: ['./app/app.component.css']
+        })
+    ], AppComponent);
     return AppComponent;
 }());
-AppComponent = __decorate([
-    core_1.Component({
-        selector: 'pm-root',
-        templateUrl: './app/app.component.html',
-        styleUrls: ['./app/app.component.css']
-    })
-], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map

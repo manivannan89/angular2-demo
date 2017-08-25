@@ -43,13 +43,13 @@ var ProductListComponent = (function () {
             }
         ];
     }
+    ProductListComponent = __decorate([
+        core_1.Component({
+            selector: 'pm-products',
+            templateUrl: './app/products/product-list.component.html'
+        })
+    ], ProductListComponent);
     return ProductListComponent;
 }());
-ProductListComponent = __decorate([
-    core_1.Component({
-        selector: 'pm-products',
-        templateUrl: './app/products/product-list.component.html'
-    })
-], ProductListComponent);
 exports.ProductListComponent = ProductListComponent;
 //# sourceMappingURL=product-list.component.js.map

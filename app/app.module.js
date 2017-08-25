@@ -13,21 +13,21 @@ var product_list_component_1 = require("./products/product-list.component");
 var AppModule = (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [
+                platform_browser_1.BrowserModule
+            ],
+            declarations: [
+                app_component_1.AppComponent,
+                product_list_component_1.ProductListComponent
+            ],
+            bootstrap: [
+                app_component_1.AppComponent
+            ]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_browser_1.BrowserModule
-        ],
-        declarations: [
-            app_component_1.AppComponent,
-            product_list_component_1.ProductListComponent
-        ],
-        bootstrap: [
-            app_component_1.AppComponent
-        ]
-    })
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
